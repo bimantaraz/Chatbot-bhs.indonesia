@@ -10,6 +10,8 @@ import sentencepiece as spm
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
 
 
 SPECIAL_SYSTEM = "<|system|>"
