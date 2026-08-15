@@ -1,6 +1,12 @@
 # Chatbot-bhs.indonesia
 Project ini adalah implementasi sistem chatbot/LLM berbasis arsitektur TinyGPT yang diotimalkan untuk percakapan dalam bahasa Indonesia.
 
+**Informasi:**
+Model (`best.pt`) memiliki jumlah parameter sebesar **33 Juta**, sangat cepat dan efisien untuk dijalankan walau hanya menggunakan CPU.
+
+## CONTOH CHAT :
+<img width="595" height="233" alt="image" src="https://github.com/user-attachments/assets/272cc841-6eca-467f-bed9-626ccc73dae6" />
+
 ## Cara Menjalankan Chatbot
 
 Untuk mulai chatting dengan model bot (`best.pt`), Anda bisa menjalankan `chat.py` di terminal (Command Prompt/PowerShell).
@@ -43,3 +49,5 @@ Saat teks `Anda :` muncul di layar, selain mengetik kalimat tanya/pernyataan bia
 - `/reset` : Menghapus semua riwayat percakapan (membuat chatbot lupa tentang apa yang dibincangkan sebelumnya).
 - `/history` : Menampilkan ringkasan obrolan barusan.
 - `/exit` atau `/quit` : Menutup aplikasi dan kembali ke layar terminal.
+
+
